@@ -1,5 +1,6 @@
 package com.pedektech.encryption
 
+
 class Greeting {
     private val platform: Platform = getPlatform()
 
