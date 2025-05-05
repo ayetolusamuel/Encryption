@@ -5,3 +5,6 @@ class AndroidPlatform : Platform {
 }
 
 actual fun getPlatform(): Platform = AndroidPlatform()
+actual fun encrypt(input: String): String {
+   return input
+}
